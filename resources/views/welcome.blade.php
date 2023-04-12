@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
-<body> Teste aaaaa
+<body>
 
     <!-- preloader area start -->
     <!-- <div class="preloader" id="preloader">

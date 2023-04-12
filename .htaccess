@@ -8,7 +8,7 @@
   RewriteCond %{HTTPS} off
   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-	RewriteCond %{HTTP_HOST} ^simulador-solar.rsweb.com.br$ [NC,OR] RewriteCond %{HTTP_HOST} ^simulador-solar.rsweb.com.br$
+	RewriteCond %{HTTP_HOST} ^mental4care.com.br$ [NC,OR] RewriteCond %{HTTP_HOST} ^mental4care.com.br$
 	RewriteCond %{REQUEST_URI} !public/
 	RewriteRule (.*) /public/$1 [L]
 
