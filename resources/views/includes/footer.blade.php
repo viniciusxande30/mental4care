@@ -47,26 +47,13 @@
                                 <li class="mt-2"><i class="fas fa-envelope"></i> comercial@mental4care.com.br</li>
                             </ul>
                             <ul class="social-media mt-4">
+                                
                                 <li>
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/explore/tags/mentalforcare/">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-youtube"></i>
-                                    </a>
-                                </li>
+                            
                             </ul>
                         </div>
                     </div>
