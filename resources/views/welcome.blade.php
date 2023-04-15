@@ -1,101 +1,7 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mental 4 Care - Desenvolvimento Mental</title>
-    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+@include('includes.top')
+@include('includes.header')
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/css/nice-select.min.css">
-    <link rel="stylesheet" href="assets/css/magnific.min.css">
-    <link rel="stylesheet" href="assets/css/slick.min.css">
-    <link rel="stylesheet" href="assets/css/owl.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
 
-</head>
-<body>
-
-    <!-- preloader area start -->
-    <!-- <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div class="spinner">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-            </div>
-        </div>
-    </div> -->
-    <!-- preloader area end -->
-
-    <!-- search popup start-->
-    <div class="td-search-popup" id="td-search-popup">
-        <form action="index.html" class="search-form">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search.....">
-            </div>
-            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
-    <!-- search popup end-->
-    <div class="body-overlay" id="body-overlay"></div>
-
-    <!-- navbar start -->
-    <nav class="navbar navbar-area navbar-expand-lg">
-        <div class="container nav-container navbar-bg">
-            <div class="responsive-mobile-menu">
-                <button class="menu toggle-btn d-block d-lg-none" data-target="#itech_main_menu" 
-                aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="icon-left"></span>
-                    <span class="icon-right"></span>
-                </button>
-            </div>
-            <div class="logo">
-                <a href="index.html"><img src="assets/img/logo.png" alt="img"  style="max-width: 300px"></a>
-            </div>
-            <div class="nav-right-part nav-right-part-mobile">
-                <a class="search-bar-btn" href="#">
-                    <i class="fa fa-search"></i>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="itech_main_menu">
-                <ul class="navbar-nav menu-open text-lg-end">
-                    <li class="menu-item-has-children">
-                        <a href="#">Página Inicial</a>
-                       
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Serviços</a>
-                        
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Cases de Sucesso</a>
-                        
-                    </li>
-                    <!-- <li class="menu-item-has-children">
-                        <a href="#">Nosso Blog</a>
-                       
-                    </li> -->
-                    <li><a href="contact.html">Mantenha Contato</a></li>
-                </ul>
-            </div>
-            <div class="nav-right-part nav-right-part-desktop align-self-center">
-                <a class="navbar-phone" href="tel:">
-                    <span class="icon">
-                        <img src="assets/img/icon/1.png" alt="img">
-                    </span>
-                    <span>Duvidas?</span>
-                    <h5>(11) 95838-8091</h5>
-                </a>
-            </div>
-        </div>
-    </nav>
-    <!-- navbar end -->
 
     <!-- page title start -->
     <div class="banner-area bg-relative banner-area-2 bg-cover" style="background-image: url('./assets/img/banner-3/5.png');">
@@ -129,7 +35,7 @@
     <!-- banner end -->
 
     <!-- service area start -->
-    <div class="service-area bg-relative pd-top-120 pd-bottom-90">
+    <div class="service-area bg-relative pd-top-120 pd-bottom-90" id="servicos">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-10">
@@ -247,7 +153,7 @@
 
 
     <!-- testimonial-area start -->
-    <div class="testimonial-area pd-top-120">
+    <div class="testimonial-area pd-top-120" id="cases">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-9">
@@ -504,117 +410,4 @@
         </div>
     </div>
     <!-- blog-area start -->
-
-    <!-- footer area start -->
-    <footer class="footer-area footer-area-2 bg-gray mt-0 pd-top-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="widget widget_about">
-                        <div class="thumb">
-                            <img src="assets/img/logo.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <p>Desenvolver Mentes Para Cuidar de Gente</p>
-                            <div class="subscribe mt-4">
-                                <input type="text" placeholder="E-mail">
-                                <button><i class="fas fa-chevron-right"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 ps-xl-5">
-                    <div class="widget widget_nav_menu">
-                        <h4 class="widget-title">Nossos Serviços</h4>
-                        <ul>
-                            <li><a href="service.html"><i class="fas fa-chevron-right"></i> Performance Corporativa</a></li>
-                       
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 ps-xl-5">
-                    <div class="widget widget_nav_menu">
-                        <h4 class="widget-title">Nossos Links</h4>
-                        <ul>
-                            <li><a href=""><i class="fas fa-chevron-right"></i> Página Inicial</a></li>
-                            <li><a href=""><i class="fas fa-chevron-right"></i> Cases de Sucesso</a></li>
-                            <li><a href=""><i class="fas fa-chevron-right"></i> Nossos Serviços </a></li>
-                            <li><a href=""><i class="fas fa-chevron-right"></i> Mantenha Contato</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="widget widget-recent-post">
-                        <h4 class="widget-title">Entre em Contato</h4>
-                        <div class="widget widget_contact">
-                            <ul class="details">
-                                <li><i class="fa fa-map-marker-alt"></i>São Paulo - SP</li>
-                                <li class="mt-3"><i class="fa fa-phone-alt"></i> (11) 95838-8091</li>
-                                <li class="mt-2"><i class="fas fa-envelope"></i> comercial@mental4care.com.br</li>
-                            </ul>
-                            <ul class="social-media mt-4">
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-youtube"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 align-self-center">
-                        <p>© RS Web  2023 | Todos os Direitos Reservados</p>
-                    </div>
-                    <div class="col-md-6 text-lg-end">
-                        <a href="#">Políticas de Privacidade</a>
-                        <a href="#">Entre em Contato</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- footer area end -->
-
-    <!-- back to top area start -->
-    <div class="back-to-top">
-        <span class="back-top"><i class="fa fa-angle-up"></i></span>
-    </div>
-    <!-- back to top area end -->
-
-
-    <!-- all plugins here -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/fontawesome.min.js"></script>
-    <script src="assets/js/magnific.min.js"></script>
-    <script src="assets/js/nice-select.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/owl.min.js"></script>
-    <script src="assets/js/counter-up.min.js"></script>
-    <script src="assets/js/waypoint.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-
-    <!-- main js  -->
-    <script src="assets/js/main.js"></script>
-</body>
-</html>
+    @include('includes.footer')

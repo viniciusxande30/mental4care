@@ -1,39 +1,65 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="themexriver">
-	<link rel="icon" type="image/x-icon" href="{{url('/')}}/assets/images/logo.png">
+<body>
 
-    <!-- Page Title -->
-    <title> Renova Sun - Energia Solar </title>
+    <!-- search popup start-->
+    <div class="td-search-popup" id="td-search-popup">
+        <form action="index.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- search popup end-->
+    <div class="body-overlay" id="body-overlay"></div>
 
-    <!-- Icon fonts -->
-    <link href="{{url('/')}}/assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Bootstrap core CSS -->
-    <link href="{{url('/')}}/assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Plugins for this template -->
-    <link href="{{url('/')}}/assets/css/animate.css" rel="stylesheet">
-    <link href="{{url('/')}}/assets/css/owl.carousel.css" rel="stylesheet">
-    <link href="{{url('/')}}/assets/css/owl.theme.css" rel="stylesheet">
-    <link href="{{url('/')}}/assets/css/slick.css" rel="stylesheet">
-    <link href="{{url('/')}}/assets/css/slick-theme.css" rel="stylesheet">
-    <link href="{{url('/')}}/assets/css/owl.transitions.css" rel="stylesheet">
-    <link href="{{url('/')}}/assets/css/jquery.fancybox.css" rel="stylesheet">
-    <link href="{{url('/')}}/assets/css/magnific-popup.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="{{url('/')}}/assets/css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
+    <!-- navbar start -->
+    <nav class="navbar navbar-area navbar-expand-lg">
+        <div class="container nav-container navbar-bg">
+            <div class="responsive-mobile-menu">
+                <button class="menu toggle-btn d-block d-lg-none" data-target="#itech_main_menu" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-left"></span>
+                    <span class="icon-right"></span>
+                </button>
+            </div>
+            <div class="logo">
+                <a href="{{url('/')}}"><img src="assets/img/logo.png" alt="img"  style="max-width: 300px"></a>
+            </div>
+            <div class="nav-right-part nav-right-part-mobile">
+                <a class="search-bar-btn" href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="itech_main_menu">
+                <ul class="navbar-nav menu-open text-lg-end">
+                    <li class="">
+                        <a href="{{url('/')}}">Página Inicial</a>
+                       
+                    </li>
+                    <li class="">
+                        <a href="{{url('/')}}/#servicos">Serviços</a>
+                        
+                    </li>
+                    <li class="">
+                        <a href="{{url('/')}}/#cases">Cases de Sucesso</a>
+                        
+                    </li>
+                    <!-- <li class="menu-item-has-children">
+                        <a href="#">Nosso Blog</a>
+                       
+                    </li> -->
+                    <li><a href="{{url('/')}}/contato">Mantenha Contato</a></li>
+                </ul>
+            </div>
+            <div class="nav-right-part nav-right-part-desktop align-self-center">
+                <a class="navbar-phone" href="https://wa.me/5511958388091?text=Ol%C3%A1!%20Quero%20conhecer%20mais%20sobre%20a%20Mental4Care">
+                    <span class="icon">
+                        <img src="assets/img/icon/1.png" alt="img">
+                    </span>
+                    <span>Duvidas?</span>
+                    <h5>(11) 95838-8091</h5>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
