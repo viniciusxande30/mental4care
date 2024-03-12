@@ -23,32 +23,58 @@ class EmailController extends Controller
 
 
 
-    $destinatarios = [
-        'comercial@mental4care.com.br' => 'Nome Destinatário 1',
-    ];
+    // $destinatarios = [
+    //     'comercial@mental4care.com.br' => 'Nome Destinatário 1',
+    // ];
     
-    // Validação dos dados do formulário
-    $request->validate([
-        'nome' => 'required|string|max:255',
-        'email' => 'required|email|max:255',
-        'mensagem' => 'required|string',
-    ]);
+    // // Validação dos dados do formulário
+    // $request->validate([
+    //     'nome' => 'required|string|max:255',
+    //     'email' => 'required|email|max:255',
+    //     'mensagem' => 'required|string',
+    // ]);
 
-    // Envio do e-mail
-    $dadosEmail = [
-        'nome' => $request->nome,
-        'email' => $request->email,
-        'empresa' => $request->email,
-        'qtd' => $request->email,
-        'telefone' => $request->email,
-        'mensagem' => $request->mensagem,
-    ];
+    // // Envio do e-mail
+    // $dadosEmail = [
+    //     'nome' => $request->nome,
+    //     'email' => $request->email,
+    //     'empresa' => $request->email,
+    //     'qtd' => $request->email,
+    //     'telefone' => $request->email,
+    //     'mensagem' => $request->mensagem,
+    // ];
 
-    foreach ($destinatarios as $email => $nome) {
-        Mail::to($email, $nome)->send(new NovoEmail($dadosEmail));
-    }
+    // foreach ($destinatarios as $email => $nome) {
+    //     Mail::to($email, $nome)->send(new NovoEmail($dadosEmail));
+    // }
 
 
-    return redirect()->back()->with('mensagem', 'E-mail enviado com sucesso!');
+    // return redirect()->back()->with('mensagem', 'E-mail enviado com sucesso!');
+
+
+
+
+        // // Valide os dados do formulário, se necessário
+        // $dados = $request->only(['nome', 'email', 'mensagem']);
+
+        // // Envie um e-mail com os dados do formulário
+        // Mail::to('comercial@mental4care.com.br')->send(new NovoEmail($dados));
+
+        // // Retorne uma resposta adequada após o envio do e-mail
+        // return $dados;
+
+
+   // Valide os dados do formulário, se necessário
+   $dados = $request->only(['nome', 'email','empresa','qtd','telefone','mensagem']);
+
+   // Envie um e-mail com os dados do formulário
+   Mail::to('comercial@mental4care.com.br')->send(new NovoEmail($dados));
+
+   // Retorne uma resposta adequada após o envio do e-mail
+   return response()->json(['mensagem' => 'E-mail enviado com sucesso!']);
+
+
+
+
 }
 }

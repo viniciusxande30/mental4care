@@ -21,7 +21,7 @@ class NovoEmail extends Mailable
     {
         return $this->from($this->dados['email'])
                     ->subject('Nova mensagem do formulário de contato')
-                    ->view('nosso-programa')
+                    ->view('formulario-enviado')
                     ->with(['dados' => $this->dados]);
     }
 }
