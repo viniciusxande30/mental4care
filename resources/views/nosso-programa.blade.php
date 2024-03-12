@@ -164,32 +164,32 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="single-input-inner style-border">
-                                            <input type="text" placeholder="Seu Nome">
+                                            <input type="text" name="nome" placeholder="Seu Nome">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="single-input-inner style-border">
-                                            <input type="text" placeholder="Seu E-mail">
+                                            <input type="text" name="email" placeholder="Seu E-mail">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="single-input-inner style-border">
-                                            <input type="text" placeholder="Nome da Empresa">
+                                            <input type="text" name="empresa" placeholder="Nome da Empresa">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="single-input-inner style-border">
-                                            <input type="text" placeholder="Quantidade de Colaboradores">
+                                            <input type="text" name="qtd" placeholder="Quantidade de Colaboradores">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="single-input-inner style-border">
-                                            <input type="text" placeholder="Telefone para Contato">
+                                            <input type="text" name="telefone" placeholder="Telefone para Contato">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="single-input-inner style-border">
-                                            <textarea placeholder="Escreva sua Mensagem"></textarea>
+                                            <textarea name="mensagem" placeholder="Escreva sua Mensagem"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">
