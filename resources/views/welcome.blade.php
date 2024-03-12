@@ -3,20 +3,20 @@
 
 
 
-    <!-- page title start -->
-    <div class="banner-area bg-relative banner-area-2 bg-cover" style="background-image: url('./assets/img/banner-3/5.png');">
-        <img class="bg-img-2" src="assets/img/banner-3/4.png" alt="img">
+ <!-- page title start -->
+ <div class="banner-area bg-relative banner-area-2 bg-cover" style="background-image: url('./assets/img/bg/8.png');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="banner-inner pe-xl-5">
-                        <h6 class="subtitle wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">Desenvolvimento Pessoal e Corporativo</h6>
-                        <h2 class="title wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">Gere Resultados,<span> Desenvolva sua</span> Perfomance </h2>
-                        <p class="content pe-xl-5 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">A M4C vem realizando treinamentos e campanhas extraordinárias, junto a empresas de diversos segmentos como saúde, transporte, finanças entre outras, de forma singular e original para alcançar objetivos pertinentes a cada público alvo.
+                        <h6 class="subtitle wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s" style="font-size:12px">Como Você Gerencia a Performance dos Seus Colaboradores?</h6>
+                        <h2 class="title wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">Expertises de<span> Desenvolvimento</span> Corporativo </h2>
+                        <p class="content pe-xl-5 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">Nosso lema é “Desenvolver Mentes para cuidar de Gente” pois acreditamos no potencial de cada indivíduo.
+                            A M4C traz diagnóstico preciso,  soluções inovadoras, informações e campanhas relevantes adequadas para cada momento de uma organização, com visão empreendedora diversificada e atual, é sinônimo de Criatividade e Inspiração para Atividades de Negócio. 
                         </p>
-                        <a class="btn btn-border-base wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.6s" href="about.html">Entre em Contato <i class="fa fa-plus"></i></a>
+                        <a class="btn btn-border-base wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.6s" href="https://api.whatsapp.com/send?phone=5511958388091&text=Ol%C3%A1,%20Seja%20Bem%20Vindo%20a%20Mental%204%20Care.%20Onde%20podemos%20te%20ajudar?" target="_BLANK">Entre em Contato <i class="fa fa-plus"></i></a>
                         <div class="d-inline-block align-self-center wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.7s">
-                            <a class="video-play-btn-hover" href="https://www.youtube.com/embed/Wimkqo8gDZ0"><img src="assets/img/video.svg" alt="img"> <h6 class="d-inline-block">Vídeo Explicativo</h6></a>
+                            <a class="video-play-btn-hover" href="https://www.youtube.com/embed/Wimkqo8gDZ0"><img src="{{url('/')}}/assets/img/video.svg" alt="img"> <h6 class="d-inline-block">Vídeo Explicativo</h6></a>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,10 @@
                         <div class="main-img-wrap">
                             <!-- <img class="banner-animate-img banner-animate-img-1 left_image_bounce" src="assets/img/banner-3/2.svg" alt="img">
                             <img class="banner-animate-img banner-animate-img-2 left_image_bounce" src="assets/img/banner-3/3.svg" alt="img"> -->
-                            <img class="main-img" src="assets/img/banner-3/1.png" alt="img">
+                            <div class="main-img-wrap">
+                                <img class="banner-animate-img banner-animate-img-2 left_image_bounce" src="assets/img/banner-2/5.png" alt="img">
+                                <img class="main-img" src="{{URL('/')}}/assets/img/dossie_babila/perfil_1.png" alt="img">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -35,13 +38,13 @@
     <!-- banner end -->
 
     <!-- service area start -->
-    <div class="service-area bg-relative pd-top-120 pd-bottom-90" id="servicos">
+    <div class="service-area bg-relative pd-top-120 pd-bottom-90">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-10">
                     <div class="section-title text-center">
                         <h6 class="sub-title">POSICIONAMENTO NO MERCADO</h6>
-                        <h2 class="title">Não Vendemos Cursos e  <span> Palestras</span></h2>
+                        <h2 class="title">Somos um <span> benefício de gestão</span> para a sua empresa</h2>
                     </div>
                 </div>
             </div>
@@ -49,38 +52,35 @@
                 <div class="col-lg-4 col-md-6" >
                     <div class="single-service-inner style-3" style="height:450px">
                         <div class="thumb">
-                            <img src="assets/img/service-icon/1.png" alt="img">
+                            <img src="{{URL('/')}}/assets/img/dossie_babila/foguete.png" alt="img" style="border-radius:100%;">
                         </div>
                         <div class="details">
-                            <h5><a href="service-details.html">Construção de Mindset</a></h5>
-                            <p>Nós acreditamos em construção de mindset, em mudança de conceitos e consciência coletiva.
+                            <h5><a href="#">Missão</a></h5>
+                            <p>A M4C existe para desenvolver gente em sua melhor performance. 
                             </p>
-                            <a class="read-more-text" href="service-details.html">Entre em Contato <i class="fa fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-service-inner style-3"style="height:450px">
                         <div class="thumb">
-                            <img src="assets/img/service-icon/2.png" alt="img">
+                            <img src="{{url('/')}}/assets/img/dossie_babila/coracao.png" alt="img" style="border-radius:100%;">
                         </div>
                         <div class="details">
-                            <h5><a href="service-details.html">Nossas Metodologias</a></h5>
-                            <p>Dentro de nossas ações e campanhas desenvolvemos metodologias que tem intuito de imergir na mente das pessoas. </p>
-                            <a class="read-more-text" href="service-details.html">Entre em Contato <i class="fa fa-plus"></i></a>
+                            <h5><a href="#" >Visão</a></h5>
+                            <p>Queremos ser vistos como mentes inspiradoras no processo de autoconhecimento e desenvolvimento organizacional, para quem estiver em busca de novos modelos de aprendizagem e cuidados longe dos padrões convencionais. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-service-inner style-3"style="height:450px">
                         <div class="thumb">
-                            <img src="assets/img/service-icon/3.png" alt="img">
+                            <img src="{{url('/')}}/assets/img/dossie_babila/quatro.png" alt="img"  style="border-radius:100%;"">
                         </div>
                         <div class="details">
-                            <h5><a href="service-details.html">Experiência Única</a></h5>
-                            <p>Quem vive uma experiência de desenvolvimento mental 4 Care, jamais esquece o que foi aprendido, e consegue de forma fácil e dinâmica, ter insights que fazem ligação a toda sua vivência até aqui, aplicando todos os conceitos no dia a dia.
+                            <h5><a href="#">Valores</a></h5>
+                            <p>A M4C não abre mão de valores como ética, compromisso social, respeito à diversidade e é claro muita alegria mesmo em dias cinzas.
                             </p>
-                            <a class="read-more-text" href="service-details.html">Entre em Contato <i class="fa fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
@@ -90,38 +90,49 @@
     <!-- service area end -->
 
     <!-- about area start -->
-    <div class="about-area bg-gradient-gray pd-top-120">
+    <div class="about-area  pd-top-60" style="background-image: url('./assets/img/bg/8.png');" id="servicos" >
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                    <div class="about-thumb-inner mb-4 mb-lg-0">
-                        <img class="main-img" src="assets/img/about/11.png" alt="img">
+                <div class="col-lg-4 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <div class="about-thumb-inner mb-8 mb-lg-0">
+                        <!-- <img class="main-img" src="assets/img/about/11.png" alt="img"> -->
+                        
+                          <embed src="{{url('/')}}/assets/img/dossie_babila/video.mp4" type="video/mp4" width="340" height="600" autoplay loop></embed>
                     </div>
                 </div>
-                <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                <div class="col-lg-8 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
                     <div class="section-title mb-0">
-                        <h6 class="sub-title">Sobre Nós</h6>
-                        <h2 class="title">Desenvolver <span>Mentes Para</span> Cuidar de Gente</h2>
-                        <p class="content mb-4">MENTAL 4 CARE é uma empresa do segmento de Treinamento e Desenvolvimento, criada com objetivo de  inovar o método de formação e desenvolvimento de equipes corporativas. 
+                        <h6 class="sub-title">Nossas Soluções</h6>
+                        <h2 class="title">Como está a <span>sua saúde e a de seus colaboradores?</span></h2>
+                        <p class="content mb-4">Destaque hoje em nossas soluções, o programa 4 Health Care  
                         </p>
+                        <p class="content mb-4"></p>Se hoje sua empresa enfrenta desafios como:</p> 
                         <div class="row">
                             <div class="col-md-6">
                                 <ul class="single-list-inner style-check style-heading style-check mb-3">
-                                    <li><i class="fas fa-check-circle"></i> Diagnóstico Preciso</li>
-                                    <li><i class="fas fa-check-circle"></i> Soluções Inovadoras</li>
+                                    <li><i class="fas fa-check-circle"></i> Altas taxas de afastamento;</li>
+                                    <li><i class="fas fa-check-circle"></i> Absenteísmo com impactos na produtividade; </li>
+                                    <li><i class="fas fa-check-circle"></i> Crescente quantidade de atestados médicos inerentes a doenças crônicas; </li>
+
                                 </ul>
                             </div>
                             <div class="col-md-6">
                                 <ul class="single-list-inner style-check style-heading style-check mb-3">
-                                    <li><i class="fas fa-check-circle"></i> Criatividade</li>
-                                    <li><i class="fas fa-check-circle"></i> Inspiração</li>
+                                    <li><i class="fas fa-check-circle"></i> Ajustes abusivos de planos de saúde corporativo; </li>
+                                    <li><i class="fas fa-check-circle"></i> Aumento dos planos devido a temida sinistralidade e carências de planos médicos corporativos; </li>
+                                    <li><i class="fas fa-check-circle"></i> Além de prejuízos anuais com gerenciamento de riscos; </li>
                                 </ul>
                             </div>
                         </div>
-                        <p class="content">Nosso lema é “Desenvolver Mentes para cuidar de Gente” pois acreditamos no potencial de cada indivíduo.<br>
-                            Corporações são formadas por objetivos e objetivos são tangíveis quando pessoas se dispõe a realizá-los, para tal efeito é necessário cuidar da equipe em busca do tão sonhado desenvolvimento de alta performance.
-                            </p>
-                        <a class="btn btn-border-base" href="about.html">Entre em Contato <i class="fa fa-plus"></i></a>
+                        <p class="content">Para você, destaque hoje em nossas em nossas soluções é o programa 4 Health Care</p>
+                        <div class="row" style="padding-bottom:60px">
+                            <div class="col-md-6">
+                        <a class="btn btn-border-base" href="{{url('/')}}/nosso-programa">Conheça Nossas Soluções<i class="fa fa-plus"></i></a>
+                            </div>
+                            <div class="col-md-6">
+                        <a class="btn btn-border-base"  href="https://api.whatsapp.com/send?phone=5511958388091&text=Ol%C3%A1,%20Seja%20Bem%20Vindo%20a%20Mental%204%20Care.%20Onde%20podemos%20te%20ajudar?" target="_BLANK">Entre em Contato<i class="fa fa-plus"></i></a>
+                    </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -153,13 +164,13 @@
 
 
     <!-- testimonial-area start -->
-    <div class="testimonial-area pd-top-120" id="cases">
+    <div class="testimonial-area pd-top-120" id="clientes">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-9">
                     <div class="section-title text-center">
                         <h6 class="sub-title">Nossos Clientes</h6>
-                        <h2 class="title">O Que Nossos Clientes <span>Tem a Dizer</span> Para Você</h2>
+                        <h2 class="title">Opinião de Quem  <span>Entende do Assunto!</span></h2>
                     </div>
                 </div>
             </div>
@@ -169,7 +180,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="icon mb-2">
-                                    <img src="assets/img/icon/25.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/icon/25.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -177,7 +188,7 @@
                             </div>
                             <div class="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                                 <div class="thumb d-inline-block">
-                                    <img src="assets/img/testimonial/4.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/testimonial/4.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-sm-8 mt-4">
@@ -201,7 +212,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="icon mb-2">
-                                    <img src="assets/img/icon/25.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/icon/25.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -209,7 +220,7 @@
                             </div>
                             <div class="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                                 <div class="thumb d-inline-block">
-                                    <img src="assets/img/testimonial/5.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/testimonial/5.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-sm-8 mt-4">
@@ -233,7 +244,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="icon mb-2">
-                                    <img src="assets/img/icon/25.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/icon/25.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -241,7 +252,7 @@
                             </div>
                             <div class="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                                 <div class="thumb d-inline-block">
-                                    <img src="assets/img/testimonial/4.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/testimonial/4.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-sm-8 mt-4">
@@ -265,7 +276,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="icon mb-2">
-                                    <img src="assets/img/icon/25.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/icon/25.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -273,7 +284,7 @@
                             </div>
                             <div class="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                                 <div class="thumb d-inline-block">
-                                    <img src="assets/img/testimonial/5.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/testimonial/5.png" alt="img">
                                 </div>
                             </div>
                             <div class="col-sm-8 mt-4">
@@ -298,50 +309,7 @@
     <!-- testimonial-area start -->
 
 
-    <!-- counter area start -->
-    <div class="counter-area bg-base pd-top-110 pd-bottom-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-counter-inner style-2 text-center">
-                        <div class="thumb">
-                            <img src="assets/img/icon/27.svg" alt="img">
-                        </div>
-                        <h2 class="text-white mt-3 mb-2"><span class="counter">200</span>+</h2>
-                        <p class="text-white">Clientes Satisfeitos</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-counter-inner style-2 text-center">
-                        <div class="thumb">
-                            <img src="assets/img/icon/28.svg" alt="img">
-                        </div>
-                        <h2 class="text-white mt-3 mb-2"><span class="counter">25</span>k+</h2>
-                        <p class="text-white">Empresas Parceiras</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-counter-inner style-2 text-center">
-                        <div class="thumb">
-                            <img src="assets/img/icon/29.svg" alt="img">
-                        </div>
-                        <h2 class="text-white mt-3 mb-2"><span class="counter">150</span>+</h2>
-                        <p class="text-white">Times Treinados</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-counter-inner style-2 text-center">
-                        <div class="thumb">
-                            <img src="assets/img/icon/30.svg" alt="img">
-                        </div>
-                        <h2 class="text-white mt-3 mb-2"><span class="counter">180</span>+</h2>
-                        <p class="text-white">Cases de Sucesso</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- counter area end -->
+   
 
     <!-- blog-area start -->
     <div class="blog-area pd-top-120 pd-bottom-90">
@@ -353,7 +321,7 @@
                         <h2 class="title">Saiba Mais Sobre o<span>Desenvolvimento</span> Humano</h2>
                     </div>
                     <div class="col-lg-5 text-lg-end align-self-end">
-                        <a class="btn btn-border-base" href="blog.html">Entre em Contato</a>
+                        <a class="btn btn-border-base"  href="https://api.whatsapp.com/send?phone=5511958388091&text=Ol%C3%A1,%20Seja%20Bem%20Vindo%20a%20Mental%204%20Care.%20Onde%20podemos%20te%20ajudar?" target="_BLANK">Entre em Contato</a>
                     </div>
                 </div>
             </div>
@@ -361,53 +329,22 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-blog-list">
                         <div class="thumb">
-                            <img class="border-radius-5" src="assets/img/blog/4.png" alt="img">
-                            <p class="date">31 de Dezembro,2022</p>
+                            <img class="border-radius-5" src="{{url('/')}}/assets/img/blog/4.png" alt="img">
+                            <p class="date">09 de Março,2024</p>
                         </div>
                         <div class="details">
                             <ul class="blog-meta p-0">
-                                <li><i class="far fa-user"></i> Por Admin</li>
+                                <li><i class="far fa-user"></i> Por Babila Rangel</li>
                                 <li><i class="far fa-folder-open"></i> Categoria</li>
                             </ul>
-                            <h5 class="mb-4"><a href="blog-details.html">Como Potencializar o Seu Negócio com o Desenvolvimento Humano</a></h5>
-                            <a class="btn btn-border-base" href="blog-details.html">Leia Mais <i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-blog-list">
-                        <div class="thumb">
-                            <img class="border-radius-5" src="assets/img/blog/4.png" alt="img">
-                            <p class="date">31 de Dezembro,2022</p>
-                        </div>
-                        <div class="details">
-                            <ul class="blog-meta p-0">
-                                <li><i class="far fa-user"></i> Por Admin</li>
-                                <li><i class="far fa-folder-open"></i> Categoria</li>
-                            </ul>
-                            <h5 class="mb-4"><a href="blog-details.html">Como Potencializar o Seu Negócio com o Desenvolvimento Humano</a></h5>
-                            <a class="btn btn-border-base" href="blog-details.html">Leia Mais <i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-blog-list">
-                        <div class="thumb">
-                            <img class="border-radius-5" src="assets/img/blog/4.png" alt="img">
-                            <p class="date">31 de Dezembro,2022</p>
-                        </div>
-                        <div class="details">
-                            <ul class="blog-meta p-0">
-                                <li><i class="far fa-user"></i> Por Admin</li>
-                                <li><i class="far fa-folder-open"></i> Categoria</li>
-                            </ul>
-                            <h5 class="mb-4"><a href="blog-details.html">Como Potencializar o Seu Negócio com o Desenvolvimento Humano</a></h5>
-                            <a class="btn btn-border-base" href="blog-details.html">Leia Mais <i class="fa fa-arrow-right"></i></a>
+                            <h5 class="mb-4"><a href="#">Como Potencializar o Seu Negócio com o Desenvolvimento Humano</a></h5>
+                            <a class="btn btn-border-base" href="#">Leia Mais <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- blog-area start -->
     <!-- blog-area start -->
     @include('includes.footer')

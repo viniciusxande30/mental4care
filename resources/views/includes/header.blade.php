@@ -1,8 +1,19 @@
 <body>
 
+    <!-- preloader area start -->
+    <!-- <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div> -->
+    <!-- preloader area end -->
+
     <!-- search popup start-->
     <div class="td-search-popup" id="td-search-popup">
-        <form action="index.html" class="search-form">
+        <form action="{{url('/')}}" class="search-form">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search.....">
             </div>
@@ -23,7 +34,7 @@
                 </button>
             </div>
             <div class="logo">
-                <a href="{{url('/')}}"><img src="assets/img/logo.png" alt="img"  style="max-width: 300px"></a>
+                <a href="{{url('/')}}"><img src="{{url('/')}}/assets/img/logo.png" alt="img"  style="width:400px !important"></a>
             </div>
             <div class="nav-right-part nav-right-part-mobile">
                 <a class="search-bar-btn" href="#">
@@ -41,22 +52,22 @@
                         
                     </li>
                     <li class="">
-                        <a href="{{url('/')}}/#cases">Cases de Sucesso</a>
+                        <a href="{{url('/')}}#clientes">Nossos Clientes</a>
                         
                     </li>
                     <!-- <li class="menu-item-has-children">
                         <a href="#">Nosso Blog</a>
                        
                     </li> -->
-                    <li><a href="{{url('/')}}/contato">Mantenha Contato</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5511958388091&text=Ol%C3%A1,%20Seja%20Bem%20Vindo%20a%20Mental%204%20Care.%20Onde%20podemos%20te%20ajudar?" TARGET="_BLANK">Fale com Um Especialista</a></li>
                 </ul>
             </div>
             <div class="nav-right-part nav-right-part-desktop align-self-center">
-                <a class="navbar-phone" href="https://wa.me/5511958388091?text=Ol%C3%A1!%20Quero%20conhecer%20mais%20sobre%20a%20Mental4Care">
-                    <span class="icon">
-                        <img src="assets/img/icon/1.png" alt="img">
+                <a class="navbar-phone" href="tel:">
+                    <span class="icon" style="background-color:white">
+                        <img src="{{url('/')}}/assets/img/dossie_babila/icon_whatsapp.png" alt="img">
                     </span>
-                    <span>Duvidas?</span>
+                    <span>Nosso WhatsApp</span>
                     <h5>(11) 95838-8091</h5>
                 </a>
             </div>
