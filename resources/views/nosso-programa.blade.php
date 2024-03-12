@@ -159,7 +159,8 @@
                             <h6 class="sub-title">Venha nos Conhecer!</h6>
                             <h2 class="title">Entre em <span>Contato</span> Conosco</h2>
                             <p class="content">Preencha o formulário ou entre em contato pelo WhatsApp, nossa equipe de especialistas retornará em breve</p>
-                            <form class="mt-4">
+                            <form class="mt-4" action="{{ route('enviar.email') }}" method="post">
+                            @csrf
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="single-input-inner style-border">
@@ -192,7 +193,9 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <a class="btn btn-black mt-0 w-100 border-radius-5" href="#">Enviar</a>
+                                    <button type="submit">Enviar</button>
+
+                                        <!-- <a class="btn btn-black mt-0 w-100 border-radius-5" href="#">Enviar</a> -->
                                     </div>
                                 </div>
                             </form>

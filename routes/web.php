@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('/nosso-programa', function () {
     return view('nosso-programa');
 });
+Route::post('/enviar-email', [App\Http\Controllers\EmailController::class, 'enviarEmail'])->name('enviar.email');
+
