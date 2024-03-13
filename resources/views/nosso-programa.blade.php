@@ -158,7 +158,7 @@
                         <div class="section-title mb-0">
                             <h6 class="sub-title">Venha nos Conhecer!</h6>
                             <h2 class="title">Entre em <span>Contato</span> Conosco</h2>
-                            <p class="content">Preencha o formulário ou entre em contato pelo WhatsApp, nossa equipe de especialistas retornará em breve</p>
+                            <p class="content">Preencha o formulário ou entre em contato pelo WhatsApp, nossa equipe de especialistas retornará em breve.</p>
                             <form class="mt-4" action="{{ route('enviar.email') }}" method="post">
                             @csrf
                                 <div class="row">
