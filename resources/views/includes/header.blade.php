@@ -11,16 +11,7 @@
     </div> -->
     <!-- preloader area end -->
 
-    <!-- search popup start-->
-    <div class="td-search-popup" id="td-search-popup">
-        <form action="{{url('/')}}" class="search-form">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search.....">
-            </div>
-            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
-    <!-- search popup end-->
+   
     <div class="body-overlay" id="body-overlay"></div>
 
     <!-- navbar start -->
@@ -34,7 +25,7 @@
                 </button>
             </div>
             <div class="logo">
-                <a href="{{url('/')}}"><img src="{{url('/')}}/assets/img/logo.png" alt="img"  style="width:400px !important"></a>
+                <a href="{{url('/')}}"><img src="{{url('/')}}/assets/img/logo.png" alt="img"  style="width:200px !important"></a>
             </div>
             <div class="nav-right-part nav-right-part-mobile">
                 <a class="search-bar-btn" href="#">

@@ -49,8 +49,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6" >
-                    <div class="single-service-inner style-3" style="height:450px">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-inner style-3" style="height:450px; background-color:#F8F9FC" >
                         <div class="thumb">
                             <img src="{{URL('/')}}/assets/img/dossie_babila/foguete.png" alt="img" style="border-radius:100%;">
                         </div>
@@ -62,7 +62,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="single-service-inner style-3"style="height:450px">
+                    <div class="single-service-inner style-3"style="height:450px; background-color:#F8F9FC">
                         <div class="thumb">
                             <img src="{{url('/')}}/assets/img/dossie_babila/coracao.png" alt="img" style="border-radius:100%;">
                         </div>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="single-service-inner style-3"style="height:450px">
+                    <div class="single-service-inner style-3"style="height:450px; background-color:#F8F9FC">
                         <div class="thumb">
                             <img src="{{url('/')}}/assets/img/dossie_babila/quatro.png" alt="img"  style="border-radius:100%;"">
                         </div>
@@ -176,7 +176,7 @@
             </div>
             <div class="testimonial-slider-2 owl-carousel slider-control-dots">
                 <div class="item">
-                    <div class="single-testimonial-inner style-2">
+                    <div class="single-testimonial-inner style-2"  style="height:530px; background-color:#F8F9FC">
                         <div class="row">
                             <div class="col-12">
                                 <div class="icon mb-2">
@@ -184,15 +184,15 @@
                                 </div>
                             </div>
                             <div class="col-sm-8">
-                                <p class="designation mb-0">Muito Obrigado por Nos Atender!</p>
+                                <p class="designation mb-0">Foi uma imensa satisfação contar com a participação da Babila como palestrante no Vixtalks! Ela trouxe consigo sua vasta experiência e expertise em Inteligência Artificial, entregando uma apresentação repleta de insights valiosos. Babila é uma profissional exemplar, dedicada e altamente competente. Trabalhar ao lado dela é sempre uma experiência enriquecedora e gratificante.</p>
                             </div>
                             <div class="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                                 <div class="thumb d-inline-block">
-                                    <img src="{{url('/')}}/assets/img/testimonial/4.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/dossie_babila/vixting.png" alt="img" style="width:100px">
                                 </div>
                             </div>
                             <div class="col-sm-8 mt-4">
-                                <h5 class="mb-0">Lucas</h5>
+                                <h5 class="mb-0">Michel Cabral - CEO da Vixting</h5>
                             </div>
                             <div class="col-sm-4 mt-sm-4">
                                 <div class="ratting-inner">
@@ -208,7 +208,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="single-testimonial-inner style-2">
+                    <div class="single-testimonial-inner style-2"  style="height:530px; background-color:#F8F9FC">
                         <div class="row">
                             <div class="col-12">
                                 <div class="icon mb-2">
@@ -216,15 +216,15 @@
                                 </div>
                             </div>
                             <div class="col-sm-8">
-                                <p class="designation mb-0">Muito Obrigado por Nos Atender!</p>
+                                <p class="designation mb-0">Tive o prazer de vivenciar a  excelência dos serviços prestados pela Mental for Care, representados pela incrível Babila . Babila é uma pessoa maravilhosa, que traz consigo um cuidado e atenção especiais para cada pessoa que cruza o seu caminho, em um mundo onde esses valores são tão escassos encontrar pessoas assim é  um presente.</p>
                             </div>
                             <div class="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                                 <div class="thumb d-inline-block">
-                                    <img src="{{url('/')}}/assets/img/testimonial/5.png" alt="img">
+                                    <img src="{{url('/')}}/assets/img/dossie_babila/3r_industria_e_comercio.png" style="width:100px" alt="img">
                                 </div>
                             </div>
-                            <div class="col-sm-8 mt-4">
-                                <h5 class="mb-0">Daniel</h5>
+                            <div class="col-sm-7 mt-4">
+                                <h5 class="mb-0">Creuza Viana - Coordenadora de RH</h5>
                             </div>
                             <div class="col-sm-4 mt-sm-4">
                                 <div class="ratting-inner">
@@ -239,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <!-- <div class="item">
                     <div class="single-testimonial-inner style-2">
                         <div class="row">
                             <div class="col-12">
@@ -302,7 +302,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

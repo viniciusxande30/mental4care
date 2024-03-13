@@ -66,7 +66,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 align-self-center">
-                        <p>Feito com ❤️ por RS Web  2024 | © Todos os Direitos Reservados</p>
+                        <p>Feito com ❤️ por <a href="https://rsweb.com.br" TARGET="_BLANK">RS Web</a>  2024 | © Todos os Direitos Reservados</p>
                     </div>
                     <div class="col-md-6 text-lg-end">
                         <!-- <a href="#">Políticas de Privacidade</a> -->
