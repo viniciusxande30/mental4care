@@ -188,7 +188,7 @@
                             </div>
                             <div class="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                                 <div class="thumb d-inline-block">
-                                    <img src="{{url('/')}}/assets/img/dossie_babila/vixting.png" alt="Vixtalks" style="width:100px">
+                                    <img src="{{url('/')}}/assets/img/dossie_babila/vixting.png" alt="Vixtalks " style="width:100px">
                                 </div>
                             </div>
                             <div class="col-sm-8 mt-4">
