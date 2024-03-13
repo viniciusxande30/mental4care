@@ -64,7 +64,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-service-inner style-3"style="height:450px; background-color:#F8F9FC">
                         <div class="thumb">
-                            <img src="{{url('/')}}/assets/img/dossie_babila/coracao.png" alt="img" style="border-radius:100%;">
+                            <img src="{{url('/')}}/assets/img/dossie_babila/coracao.png" alt="Coração" style="border-radius:100%;">
                         </div>
                         <div class="details">
                             <h5><a href="#" >Visão</a></h5>
