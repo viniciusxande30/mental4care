@@ -252,7 +252,7 @@
                             </div>
                             <div class="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                                 <div class="thumb d-inline-block">
-                                    <img src="{{url('/')}}/assets/img/dossie_babila/3r_industria_e_comercio.png" style="width:100px" alt="3R Indústria e Comércio">
+                                    <img src="{{url('/')}}/assets/img/dossie_babila/pronep.png" style="width:100px" alt="3R Indústria e Comércio">
                                 </div>
                             </div>
                             <div class="col-sm-7 mt-4">
