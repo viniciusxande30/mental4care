@@ -176,7 +176,7 @@
             </div>
             <div class="testimonial-slider-2 owl-carousel slider-control-dots">
                 <div class="item">
-                    <div class="single-testimonial-inner style-2"  style="height:530px; background-color:#F8F9FC">
+                    <div class="single-testimonial-inner style-2"  style="height:600px; background-color:#F8F9FC">
                         <div class="row">
                             <div class="col-12">
                                 <div class="icon mb-2">
@@ -208,7 +208,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="single-testimonial-inner style-2"  style="height:530px; background-color:#F8F9FC">
+                    <div class="single-testimonial-inner style-2"  style="height:600px; background-color:#F8F9FC">
                         <div class="row">
                             <div class="col-12">
                                 <div class="icon mb-2">
@@ -225,6 +225,38 @@
                             </div>
                             <div class="col-sm-7 mt-4">
                                 <h5 class="mb-0">Creuza Viana - Coordenadora de RH</h5>
+                            </div>
+                            <div class="col-sm-4 mt-sm-4">
+                                <div class="ratting-inner">
+                                    <span>Estrelas:</span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="single-testimonial-inner style-2"  style="height:600px; background-color:#F8F9FC">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="icon mb-2">
+                                    <img src="{{url('/')}}/assets/img/icon/25.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <p class="designation mb-0">Olá, meu nome é Libera Martins, sou gerente de RH da Pronep Life Care e tive o prazer de ter a Babila Rangel no meu time. Babila, desde o primeiro contato, se destacou com suas ideias e sugestões que visavam a melhoria do desempenho da empresa. Seu projeto de destaque é o programa focado na saúde mental e física do colaborador. Na época que foi implementado, impactou positivamente no clima organizacional. Para mim é um privilégio deixar registrado o meu depoimento e agradecimento por toda a sua contribuição. Sucesso Babila. 👏👏👏</p>
+                            </div>
+                            <div class="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
+                                <div class="thumb d-inline-block">
+                                    <img src="{{url('/')}}/assets/img/dossie_babila/3r_industria_e_comercio.png" style="width:100px" alt="3R Indústria e Comércio">
+                                </div>
+                            </div>
+                            <div class="col-sm-7 mt-4">
+                                <h5 class="mb-0">Libera Martins - Gerente de RH da Pronep Life Care</h5>
                             </div>
                             <div class="col-sm-4 mt-sm-4">
                                 <div class="ratting-inner">
